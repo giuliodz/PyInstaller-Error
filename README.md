@@ -1,5 +1,14 @@
 # PyInstaller-Error
-Step-by-step guide to reproduce the error
+
+### Environment
+
+    Output of pyinstaller --version: 4.2.2
+    Version of Python: 3.8.8
+    Platform: Ubuntu 20.04
+
+
+### Step-by-step guide to reproduce the error
+
 1. Clone this repository
 2. Create a python venv
 3. Run `pip install haystack`
