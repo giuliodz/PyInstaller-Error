@@ -1,0 +1,1 @@
+from haystack.preprocessor.cleaning import clean_wiki_text
