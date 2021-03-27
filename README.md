@@ -10,11 +10,12 @@
 ### Step-by-step guide to reproduce the error
 
 1. Clone this repository
-2. Create a python venv
-3. Run `pip install haystack`
-4. Install the latest vestion of pyinstaller
-5. Run `pyinstaller --onedir app.spec --clean --distpath distAPP`
-6. Run ./distAPP/app/app
+2. Change the pythex field in app.spec to point to your folder's path
+3. Create a python venv
+4. Run `pip install haystack`
+5. Install the latest vestion of pyinstaller
+6. Run `pyinstaller --onedir app.spec --clean --distpath distAPP`
+7. Run ./distAPP/app/app
 
 You should now get the error:
 ```
